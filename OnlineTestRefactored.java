@@ -16,7 +16,7 @@ public class OnlineTestRefactored extends JFrame implements ActionListener {
 
     String[] questions = {
             "Which of these is the Capital of UAE?",
-            "Who created this Application?",
+            "Who created Github Application?",
             "What would be the heart rate if output=5L, EDV=100ml, ESV=50ml?",
             "Which is the host country of G20 summit this year?",
             "What is the parent company of ChatGPT?",
@@ -29,7 +29,7 @@ public class OnlineTestRefactored extends JFrame implements ActionListener {
 
     String[][] options = {
             {"Dubai", "Abu Dhabi", "Fujera", "Ras-al-Khaimah"},
-            {"Bill Gates", "Maroor Chethan Pai", "Elon Musk", "Anupam Mittal"},
+            {"Bill Gates", "Maroor Chethan Pai", "Elon Musk", "Tom Preston Werner"},
             {"100 beats per minute", "70 beats per minute", "92 beats per minute", "The person has died :("},
             {"Brazil", "Indonesia", "India", "China"},
             {"OpenAI", "Microsoft", "Meta", "NeuroLink"},
@@ -40,7 +40,7 @@ public class OnlineTestRefactored extends JFrame implements ActionListener {
             {"Oligotrophication", "Eutrophication", "Dystrophy", "None of the above"}
     };
 
-    int[] answers = {1, 1, 0, 2, 0, 0, 3, 2, 0, 0};
+    int[] answers = {1, 3, 0, 2, 0, 0, 3, 2, 0, 0};
 
     public OnlineTestRefactored(String title) {
         super(title);
@@ -140,6 +140,6 @@ public class OnlineTestRefactored extends JFrame implements ActionListener {
     }
 
     public static void main(String[] args) {
-        new OnlineTestRefactored("Champion's Online Test App");
+        new OnlineTestRefactored("Online Test App");
     }
 }
