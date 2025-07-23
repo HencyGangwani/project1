@@ -1,6 +1,6 @@
 
 
-# Online Test App
+# Online Quiz Application
 
 A simple **Java Swing desktop application** for conducting an online quiz.  
 Users can answer multiple-choice questions, navigate using **Next** and **Bookmark** buttons, and view their final score at the end.
